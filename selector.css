@@ -1,0 +1,64 @@
+/* 
+    Reset CSS:
+    Mengatur ulang beberapa properti default CSS untuk konsistensi tampilan di berbagai browser.
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Pengaturan umum untuk elemen body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #88f8e9; /* Warna latar belakang */
+  color: #180a92; /* Warna teks */
+  padding: 20px;
+}
+
+/* Pengaturan untuk elemen heading level 1 */
+h1 {
+  text-align: center; /* Teks menjadi rata tengah */
+  margin-bottom: 20px; /* Jarak bawah */
+}
+
+/* Pengaturan untuk elemen dengan kelas "product" */
+.product {
+  background-color: #6decd1; /* Warna latar belakang */
+  padding: 20px;
+  margin-bottom: 20px; /* Jarak bawah */
+  border-radius: 8px; /* Radius sudut */
+  box-shadow: 0 0 10px rgba(211, 4, 56, 0.959); /* Bayangan */
+}
+
+/* Pengaturan untuk elemen dengan kelas "description" */
+.description {
+  background-color: #6cec77; /* Warna latar belakang */
+  padding: 20px;
+  margin-bottom: 20px; /* Jarak bawah */
+  border-radius: 8px; /* Radius sudut */
+  box-shadow: 0 0 10px rgb(4, 29, 170); /* Bayangan */
+}
+
+/* Pengaturan untuk elemen dengan kelas "sidebar" */
+.sidebar {
+  background-color: #8863ec; /* Warna latar belakang */
+  padding: 20px;
+  border-radius: 8px; /* Radius sudut */
+  box-shadow: 0 0 10px rgb(251, 255, 0); /* Bayangan */
+}
+
+/* Pengaturan untuk elemen heading level 2 di dalam sidebar */
+.sidebar h1, .sidebar h2 {
+  text-align: center; /* Teks menjadi rata tengah */
+}
+
+/* Pengaturan tambahan untuk elemen heading level 2 di dalam sidebar */
+.sidebar h2 {
+  margin-bottom: 10px; /* Jarak bawah */
+}
+
+/* Pengaturan tambahan untuk elemen paragraf di dalam sidebar */
+.sidebar p {
+  margin-bottom: 10px; /* Jarak bawah */
+}
